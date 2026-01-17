@@ -6,7 +6,8 @@ prompt.Triggered:Connect(function (Player)
 		and not Player.Character:FindFirstChild(tool_meat.Name) then
 		
 		local tool1 = tool_meat:Clone()
-		
+
+			
 		Player.Character.Humanoid:EquipTool(tool1)
 	end
 end)
