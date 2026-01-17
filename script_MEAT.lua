@@ -7,7 +7,6 @@ prompt.Triggered:Connect(function (Player)
 		
 		local tool1 = tool_meat:Clone()
 
-			
 		Player.Character.Humanoid:EquipTool(tool1)
 	end
-end)
+end
